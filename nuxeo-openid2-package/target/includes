@@ -1,0 +1,6 @@
+bundles/nuxeo-apt-extensions-1.0.jar
+bundles/nuxeo-openid2-core-1.3-SNAPSHOT.jar
+bundles/nuxeo-platform-login-openid-10.10.jar
+bundles/nuxeo-usermapper-10.10.jar
+bundles/nuxeo-webengine-apt-1.2.jar
+lib/jsf-api-2.2.6.jar
