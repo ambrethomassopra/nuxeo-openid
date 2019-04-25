@@ -1,0 +1,9 @@
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Manifest-Version: 1.0
+Bundle-Vendor: com.sncf.custom.openid.bundle
+Bundle-Version: 1.0.0
+Bundle-Name: nuxeo-openid2-core
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.sncf.custom.openid.bundle.nuxeo-openid2-core;singleton=true
+Nuxeo-Component: OSGI-INF/customopenidconnectauthenticator-contrib.xml

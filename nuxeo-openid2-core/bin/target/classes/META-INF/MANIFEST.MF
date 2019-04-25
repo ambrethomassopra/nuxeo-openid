@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Built-By: amthomas
+Build-Jdk: 1.8.0_201
+Bundle-ManifestVersion: 2
+Bundle-Version: 1.0.0
+Created-By: Maven Integration for Eclipse
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Bundle-Vendor: com.sncf.custom.openid.bundle
+Bundle-Name: nuxeo-openid2-core
+Bundle-SymbolicName: com.sncf.custom.openid.bundle.nuxeo-openid2-core;
+ singleton=true
+Nuxeo-Component: OSGI-INF/customopenidconnectauthenticator-contrib.xml
+

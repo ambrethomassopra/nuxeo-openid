@@ -1,0 +1,13 @@
+{
+  "generator-nuxeo": {
+    "lastRemote": "d:\\Profiles\\amthomas\\.cache\\node-yeoman-remote-cache\\nuxeo\\generator-nuxeo-meta\\2.9.0",
+    "promptValues": {
+      "parent_package": "com.sncf.custom.openid.bundle",
+      "parent_artifact": "nuxeo-openid2-parent",
+      "parent_version": "1.0-SNAPSHOT",
+      "package": "com.sncf.custom.openid.bundle"
+    },
+    "_nuxeo_version": "10.10",
+    "multi": true
+  }
+}

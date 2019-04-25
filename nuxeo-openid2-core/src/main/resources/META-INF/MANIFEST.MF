@@ -1,0 +1,15 @@
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Manifest-Version: 1.0
+Bundle-Vendor: com.sncf.custom.openid.bundle
+Bundle-Version: 1.0.1
+Bundle-Name: nuxeo-openid2-core
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.sncf.custom.openid.bundle.nuxeo-openid2-core;singleton=true
+Nuxeo-Component: OSGI-INF/customopenidconnectauthenticator-contrib.xml
+Import-Package: java.io, java.util, javax.servlet.http, org.apache.commons, org.nuxeo.ecm.core.api, org.nuxeo.runtime.api, 
+ org.nuxeo.ecm.platform.api.login, org.nuxeo.ecm.platform.oauth2.openid, org.nuxeo.ecm.platform.oauth2.providers, org.nuxeo.ecm.platform.usermanager,
+ com.google.api.client.auth.oauth2, com.google.api.client.http
+Export-Package: com.sncf.custom.openid.bundle
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: nuxeo.platform.login.openid, org.nuxeo.ecm.platform.login, org.nuxeo.ecm.platform.web.common

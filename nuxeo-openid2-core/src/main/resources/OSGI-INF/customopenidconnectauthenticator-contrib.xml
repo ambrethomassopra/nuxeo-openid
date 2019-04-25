@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<component name="com.sncf.custom.openid.bundle.customopenidconnectauthenticator">
+ <require>org.nuxeo.ecm.platform.ui.web.auth.service.PluggableAuthenticationService</require>
+  <extension target="org.nuxeo.ecm.platform.ui.web.auth.service.PluggableAuthenticationService" point="authenticators">
+    <authenticationPlugin class="com.sncf.custom.openid.bundle.CustomOpenIDConnectAuthenticator" enabled="true" name="OPENID_CONNECT_AUTH">
+      <loginModulePlugin>Trusting_LM</loginModulePlugin>
+    </authenticationPlugin>
+  </extension>
+</component>

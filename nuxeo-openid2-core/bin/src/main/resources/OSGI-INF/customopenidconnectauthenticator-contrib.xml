@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<component name="com.sncf.custom.openid.bundle.customopenidconnectauthenticator">
+
+  <extension target="org.nuxeo.ecm.platform.ui.web.auth.service.PluggableAuthenticationService" point="authenticators">
+    <!-- 
+    You might find some help here:
+    https://explorer.nuxeo.com/nuxeo/site/distribution/latest/viewExtensionPoint/org.nuxeo.ecm.platform.ui.web.auth.service.PluggableAuthenticationService%2d%2dauthenticators
+    -->
+  </extension>
+
+</component>
